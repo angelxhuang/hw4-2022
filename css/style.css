@@ -130,7 +130,7 @@ nav a:focus{
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 *:focus{
-  border: 2px solid;
+  border: 2px solid black;
 }
 
 /* Step 4: Write selector/rule property to style the container */
@@ -191,8 +191,8 @@ first div in the grid  and place it in the grid. */
 
 
   /* Step 9: Write the selector/rule property to style the nav element */
-  .nav{
-  align-content: left;
+  nav{
+  text-align: right;
   padding: 30px 0px 30px 0px;
   }
  
@@ -215,6 +215,6 @@ first div in the grid  and place it in the grid. */
  /* Step 13:Write the selector/rule property to update the .text-block class */
   .text-block{
   max-height: 250px;
-  overflow: visible;
+  overflow: auto;
   }
 }
